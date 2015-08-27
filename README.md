@@ -1,5 +1,5 @@
 # jsBasics
-@Author: Necseron
+@Author: Víctor Collado
 
 Proyecto para recordar y aprender sobre JavaScript
 
