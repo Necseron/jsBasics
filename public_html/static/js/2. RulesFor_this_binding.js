@@ -1,4 +1,5 @@
-/* Reglas para la asignación del `this`
+/* 
+ * Reglas para la asignación del `this`
  * Escrito por Víctor Collado v.1
  * fuente : You Don't Know JS: this & Object Prototypes, by Kyle Simpson
  *
@@ -15,6 +16,8 @@
  * 6. Hard Binding
  * 7. Pass-through Pattern 
  * 8. `new` Binding
+ *
+ * nota : descomentar las líneas que contengan //_ para ver los ejemplos en funcionamientos
  */
 
 function foo()
