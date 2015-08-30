@@ -1,4 +1,4 @@
-/*Writted by Necseron*/
+/*Escrito por Víctor Collado v.1*/
 
 /*
  * Se desarrollará una estructura de clases con propiedades y métodos
