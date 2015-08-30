@@ -19,6 +19,6 @@ Documentación utilizada
 | Autor | Obra | Enlace |
 |-------|------| -------|
 |Douglas Crockford| Private Members in JavaScript|http://javascript.crockford.com|
-|By Kyle Simpson|You Don't Know JS: this & Object Prototypes|http://shop.oreilly.com/product/0636920033738.do|
+|Kyle Simpson|You Don't Know JS: this & Object Prototypes|http://shop.oreilly.com/product/0636920033738.do|
 
 
