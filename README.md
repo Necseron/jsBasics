@@ -6,7 +6,7 @@ Proyecto para recordar y aprender sobre JavaScript
 
 Partes disponibles
 
-*1.Visibilidad de propiedades* : Aprenderemos a construir una clase tal y como haríamos en `Java` o `C++`,
+*1.Visibilidad de propiedades ( PENDIENTE DE REVISIÓN ) * : Aprenderemos a construir una clase tal y como haríamos en `Java` o `C++`,
 con propiedades y métodos `públicos`, `privados` y `estáticos` 
 
 > [Ver](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/1.PropertiesVisibility.js)
