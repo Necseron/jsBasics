@@ -16,5 +16,9 @@ https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/2.%20Rule
 
 Documentación utilizada
 
-http://javascript.crockford.com
-http://shop.oreilly.com/product/0636920033738.do
+| Autor | Obra | Enlace |
+|-------|------| -------|
+|Douglas Crockford| Private Members in JavaScript|http://javascript.crockford.com|
+|By Kyle Simpson|You Don't Know JS: this & Object Prototypes|http://shop.oreilly.com/product/0636920033738.do|
+
+
