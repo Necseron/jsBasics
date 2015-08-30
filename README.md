@@ -1,6 +1,6 @@
 # jsBasics
 
-** Autor: Víctor Collado **
+**Autor: Víctor Collado**
 
 Proyecto para recordar y aprender sobre JavaScript
 
