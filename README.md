@@ -15,12 +15,13 @@ con propiedades y métodos `públicos`, `privados` y `estáticos`
 
 > [Ver](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/2.%20RulesFor_this_binding.js)
 
-*3. Object [[Prototype]]
-> documentación, todo
+*3. Object [[Prototype]] - Why new or constructor calls? let's drop them
+> documentación ( pendiente )
 
-> [Ejemplo 1 ,app de test aplicando los conceptos aprendidos](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/3.%20Object%20%5B%5BPrototype%5D%5D.js)
+Ejemplos usando Object Link y OLOO ( Objeto link to other object )
+> [Ejemplo 1 ,app de test demostrando el uso de los enlaces entre objetos](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/3.%20Object%20%5B%5BPrototype%5D%5D.js)
 
-> [Ejemplo 2, librería para hacer mixins y object link usando OLOO](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/_o.js)
+> [Ejemplo 2, librería para hacer mixins](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/_o.js)
 
 Documentación utilizada
 
