@@ -17,7 +17,9 @@ con propiedades y métodos `públicos`, `privados` y `estáticos`
 
 *3. Object [[Prototype]]
 > documentación, todo
+
 > [Ejemplo 1 ,app de test aplicando los conceptos aprendidos](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/3.%20Object%20%5B%5BPrototype%5D%5D.js)
+
 > [Ejemplo 2, librería para hacer mixins y object link usando OLOO](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/_o.js)
 
 Documentación utilizada
