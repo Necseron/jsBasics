@@ -39,3 +39,41 @@ _o.link_it = function(p_objects_to_link)
       }      
    }
 }
+
+// Use example
+
+var m111 = {
+   m_111 : 'm_111',
+   m_222 : 'm_222',
+};
+
+var m11 = {
+   m_11 : 'm_11',
+   m_22 : 'm_22',
+   // __proto__ : m111
+};
+
+var m1 = {
+   m_1 : 'm_1',
+   m_2 : 'm_2',
+   // __proto__ : m11
+};
+
+var linked = {
+   m1: m1,
+   m11 : m11,
+   m111 : m111
+};
+
+console.log(linked.m1);
+
+_o.link_it(linked);
+var linked_m1 = linked.m1; 
+
+console.log(linked_m1);
+console.log(m1);
+
+// verificar que linked_object (objeto base con toda la `chain prototype`)
+// contiene los métodos de los otros objetos
+console.log(m111.isPrototypeOf(linked_object)); // false
+console.log(linked.m111.isPrototypeOf(linked_m1)); // true
