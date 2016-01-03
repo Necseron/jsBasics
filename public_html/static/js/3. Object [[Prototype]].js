@@ -12,32 +12,7 @@ var Logger = {
       // console.log(this.separator);
       // console.log(p_out);
    }
-   /*
-   get in(){
-      return this._in_;
-   },
-   set in(val){
-      this._in_ = val * 12;
-   }
-   */
 };
-
-// console.log(Logger);
-
-/*
-Object.defineProperty(Logger,'in',{
-   set : function(){
-      return 'hi :333';
-   },
-   get : function(){
-      return 555;
-   }
-});
-var logger = Object.create(Logger);
-logger.in = 11;
-
-console.log(logger);
-*/
 
 var Task = {
    init : function init(){
@@ -71,8 +46,6 @@ Task_runner.run = function(p_flag)
                +'\nwith flag   ->' 
                + this.flag);
 };
-
-// console.log(Task_runner);
 
 var Task_manager = {
    version : 0.1,
@@ -108,7 +81,6 @@ var Task_manager = {
       }
    }
 }; 
-
 
 var my_task_manager = Object.create(Task_manager);
 
