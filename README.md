@@ -15,7 +15,7 @@ con propiedades y métodos `públicos`, `privados` y `estáticos`
 
 > [Ver](https://github.com/vcollado/jsBasics/blob/master/public_html/static/js/2.%20RulesFor_this_binding.js)
 
-*3. Object [[Prototype]] - Why new or constructor calls? let's drop them
+*3. Object [[Prototype]] - simplificando nuestras apps con un diseño más flexible y mantenible, dejando en un segundo plano los `new` y las `constructor call`
 > documentación ( pendiente )
 
 Ejemplos usando Object Link y OLOO ( Objeto link to other object )
