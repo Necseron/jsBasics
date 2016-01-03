@@ -1,16 +1,47 @@
 var _o = {};
 
+/**
+ * @function link_it
+ * @description [join the [[Prototypes]] of the given Objects
+ */
 _o.link_it = function(p_objects_to_link)
 {
-
+   /**
+    * @private
+    * @property [object to link]
+    * @description [The objects to chain their [[Prototypes]] ]
+    */
    var _object_to_link               = p_objects_to_link
-
+   /**
+    * @private
+    * @property [objects to link keys]
+    * @description [The key array of the objetos to chain it's [[Prototypes]] ]
+    */
    var _objects_to_link_keys         = Object.keys(_object_to_link)
-
+   /**
+    * @private
+    * @property [length objects to link keys]
+    * @description [The key size]
+    */
    var _length_objects_to_link_keys  = _objects_to_link_keys.length - 1;
-
+   /**
+    * @description [Within the inverse loop we will save the last element to linked it to the previous element]
+    * seq: 111, 11, 1
+    * save to: 111 -> 11, 11 -> 1, and so on
+    * The first element does not compute
+    * 111 : __proto__ -> Object
+    * 11  : __proto__ -> 111
+    * 1   : __proto__ -> 11
+    * @private
+    * @property [last object]
+    */
    var _last_object;
    
+   /**
+    * @private
+    * @property [temp object]
+    * @description [Will contain the properties of the object and the linked [[Prototype]] - INSIDE THE LOOP
+    */
    var _temp_object;
 
    for(var idx = _length_objects_to_link_keys; idx >= 0 ; idx --)
@@ -67,6 +98,7 @@ var linked = {
 
 console.log(linked.m1);
 
+// entry point
 _o.link_it(linked);
 var linked_m1 = linked.m1; 
 
