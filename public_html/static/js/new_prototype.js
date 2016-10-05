@@ -20,3 +20,17 @@ var foo = {
 var baz = Object.create(foo);
 console.log(baz);
 
+
+var ext = function(){
+
+};
+
+ext.prototype.dosomething = function(){
+
+};
+
+class s extends ext{}
+
+ss = new s();
+
+console.log(ss);
